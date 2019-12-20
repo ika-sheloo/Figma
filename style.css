@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,700,900&display=swap');
+h1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    color: white;
+    margin: 10px 50px 20px;
+}
+
+body {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+}
+
+.blue,
+.black,
+.red {
+    width: 320px;
+    /* display: inline-block; */
+}
+
+.blue {
+    /* position: relative; */
+    /* width: 344.83px; */
+    height: 564px;
+    /* left: 166px; */
+    /* top: 60px; */
+    background: #2B3566;
+    border-radius: 20px;
+}
+
+.black {
+    /* position: relative; */
+    /* width: 344.83px; */
+    height: 564px;
+    /* left: 566px; */
+    /* top: 60px; */
+    background: #242424;
+    border-radius: 20px;
+}
+
+.red {
+    /* position: relative; */
+    /* width: 344.83px; */
+    height: 564px;
+    /* left: 966px; */
+    /* top: 60px; */
+    background: #DD1F32;
+    border-radius: 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li:before {
+    color: turquoise;
+    margin: 20px;
+    content: '✓';
+}
+
+
+/* ul li {
+    margin-top: 20px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+} */
+
+#ikka {
+    color: whitesmoke;
+}
+
+#ikka,
+#white,
+#whti {
+    color: white;
+    margin: 10px 0 20px;
+}
+
+.header {
+    color: whitesmoke;
+    margin: 10px 25px 20px !important;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+}
+
+#whtie1 li,
+#white li,
+#ikka li {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    color: white;
+}
+
+a {
+    transition: background-color .5s;
+    display: block;
+    text-align: center;
+    width: 35%;
+    PADDING: 10PX;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: 1px solid;
+    color: wheat;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: gold;
+}
